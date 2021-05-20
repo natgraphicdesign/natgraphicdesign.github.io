@@ -1,0 +1,116 @@
+/*START contact-section-1*/
+
+.contact-section-1 {
+    background: var(--crema);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-family: 'Moderat';
+    color: var(--negro);
+}
+
+.contact-title {
+    padding-top: 0rem;
+    font-family: 'Moderat';
+}
+
+.site-main .contact-section-1 h1 {
+    font-weight: bold;
+    text-align: left;
+}
+
+#accordionFlushContact {
+    padding-bottom: 3rem;
+}
+
+.contact-section-1 .accordion {
+    padding-top: 2rem;
+    padding-left: 0px !important;
+}
+
+.contact-section-1 .accordion-button {
+    color: var(--negro);
+}
+
+.contact-section-1 .accordion .accordion-button .anaranjado {
+    color: var(--anaranjado);
+}
+
+.contact-section-1 .accordion .accordion-button .email-anaranjado:hover {
+    text-decoration: 3px underline;
+}
+
+.contact-section-1 .accordion .accordion-button .azul {
+    color: var(--azul);
+}
+
+.contact-section-1 .accordion .accordion-button .phone-azul:hover {
+    text-decoration: 3px underline;
+}
+
+.contact-section-1 .accordion .accordion-button .amarillo {
+    color: var(--amarillo);
+}
+
+.contact-section-1 .accordion .accordion-button .instagram-amarillo:hover {
+    text-decoration: 3px underline;
+}
+
+.accordion-body h5 a {
+    text-decoration: none !important;
+    color: var(--negro);
+    font-family: 'Moderat-Bold';
+
+}
+
+.accordion-body h5 a:hover {
+    text-decoration: 3px underline !important;
+}
+
+.contact-section-1 .send-email {
+    margin: 0rem;
+}
+
+.contact-section-1 .send-email .row {
+    padding: .3rem 0rem;
+}
+
+.send-email input,
+.send-email textarea {
+    border-radius: 25px;
+    color: #adb5bd;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.send-email input {
+    height: 3rem;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.send-email textarea {
+    padding-top: 1rem;
+}
+
+.contact-section-1 .send-email input,
+.contact-section-1 .send-email textarea {
+    border: none;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.40);
+}
+
+/*END contact-section-1*/
+
+
+/*START decorative-banner-1*/
+
+.decorative-banner-1 {
+    background-image: url(../images/8-08.png);
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*END decorative-banner-1*/

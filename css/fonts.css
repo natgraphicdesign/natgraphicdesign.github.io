@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Moderat";
+    src: url(../fonts/Moderat/Moderat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Italic";
+    src: url(../fonts/Moderat/Moderat-Regular-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Light";
+    src: url(../fonts/Moderat/Moderat-Light.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Medium";
+    src: url(../fonts/Moderat/Moderat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Bold";
+    src: url(../fonts/Moderat/Moderat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Black";
+    src: url(../fonts/Moderat/Moderat-Black.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Mono";
+    src: url(../fonts/Moderat/Moderat-Mono-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Cond-Regular";
+    src: url(../fonts/Moderat/Moderat-Condensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Cond-Italic";
+    src: url(../fonts/Moderat/Moderat-Condensed-Regular-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Cond-Light";
+    src: url(../fonts/Moderat/Moderat-Condensed-Light.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Cond-Medium";
+    src: url(../fonts/Moderat/Moderat-Condensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Cond-Bold";
+    src: url(../fonts/Moderat/Moderat-Condensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Ext-Regular";
+    src: url(../fonts/Moderat/Moderat-Extended-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Ext-Light";
+    src: url(../fonts/Moderat/Moderat-Extended-Light.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Ext-Medium";
+    src: url(../fonts/Moderat/Moderat-Extended-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Moderat-Ext-Bold";
+    src: url(../fonts/Moderat/Moderat-Extended-Bold.ttf);
+}
