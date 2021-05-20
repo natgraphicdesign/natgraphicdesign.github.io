@@ -88,16 +88,19 @@
     height: 3rem;
     width: 100%;
     padding-left: 1rem;
+    color: #adb5bd;
 }
 
 .send-email textarea {
     padding-top: 1rem;
+    color: #adb5bd;
 }
 
 .contact-section-1 .send-email input,
 .contact-section-1 .send-email textarea {
     border: none;
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.0);
+    color: #adb5bd;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /*END contact-section-1*/
