@@ -103,6 +103,10 @@
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.form-group {
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.40);
+}
+
 /*END contact-section-1*/
 
 
