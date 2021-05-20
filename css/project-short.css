@@ -159,6 +159,10 @@
         -o-object-fit: cover;
         object-fit: cover;
     }
+    
+    .project-short-title .scroll-down {
+        display: none;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -168,6 +172,10 @@
         height: 70vw;
         -o-object-fit: cover;
         object-fit: cover;
+    }
+    
+    .project-short-title .scroll-down {
+        display: none;
     }
 }
 
