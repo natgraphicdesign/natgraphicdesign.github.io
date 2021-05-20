@@ -97,7 +97,7 @@
 .contact-section-1 .send-email input,
 .contact-section-1 .send-email textarea {
     border: none;
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.40);
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.0);
 }
 
 /*END contact-section-1*/
