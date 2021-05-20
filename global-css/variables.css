@@ -1,0 +1,25 @@
+/* CSS Variables */
+
+:root {
+    --anaranjado: #E9501D;
+    --azul: #2A81B3;
+    --amarillo: #FBC03A;
+    --verde: #02713E;
+    --verde2: #78AA8D;
+    --violeta: #4B4A88;
+    --rosado: #F5AEA2;
+    --negro: #1A1A19;
+    --crema: #F3E9DD;
+
+    --text-color: #1A1A19;
+    --border-color: #1A1A19;
+    --gradient-color: #E9501D;
+    --shadow-color: 0px 10px 30px #1A1A19 (118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px #1A1A19 (57, 56, 61, 0.205);
+
+    /* Font Family Variables */
+
+    --moderat: 'Moderat', sans-serif;
+
+
+}
