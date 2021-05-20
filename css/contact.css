@@ -103,10 +103,6 @@
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.form-group {
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.40);
-}
-
 /*END contact-section-1*/
 
 
@@ -125,18 +121,10 @@
 /*START MEDIA QUERIES*/
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
-    .form-group {
-        box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.40);
-    }
-}
+@media (max-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-    .form-group {
-        box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.40);
-    }
-}
+@media (max-width: 768px) {}
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {}
