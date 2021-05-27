@@ -1,0 +1,354 @@
+/*START about-title*/
+
+.about-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Moderat-Bold';
+}
+
+/*START about-title*/
+
+
+/*START about-section-1*/
+
+.about-section-1 {
+    background: var(--crema);
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    font-family: 'Moderat';
+    color: var(--negro);
+    text-align: left;
+}
+
+.about-section-1 h4 {
+    font-size: 25px;
+    font-family: 'Moderat-Light';
+}
+
+/*END about-section-1*/
+
+
+/*START about-section-2*/
+
+.about-section-2 {
+    background: var(--crema);
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    font-family: 'Moderat';
+    color: var(--negro);
+}
+
+.about-section-2 h5 {
+    font-size: 20px;
+    font-family: 'Moderat';
+}
+
+.about-section-2 .bold {
+    font-size: 20px;
+    font-family: 'Moderat-Bold';
+}
+
+.about-section-2 p {
+    font-size: 15px;
+    font-family: 'Moderat-Light';
+}
+
+.about-section-2 .accordion {
+    padding-top: 2rem;
+}
+
+.about-section-2 .accordion-body {
+    padding-left: 2.1rem;
+    line-height: 20px;
+}
+
+.about-section-2 .accordion-button {
+    color: var(--negro);
+}
+
+.about-section-2 .accordion .accordion-button .anaranjado {
+    color: var(--anaranjado);
+}
+
+.about-section-2 .accordion .accordion-button .education-anaranjado:hover {
+    text-decoration: 2px underline;
+}
+
+.about-section-2 .accordion .accordion-button .azul {
+    color: var(--azul);
+}
+
+.about-section-2 .accordion .accordion-button .experience-azul:hover {
+    text-decoration: 2px underline;
+}
+
+.about-section-2 .accordion .accordion-button .amarillo {
+    color: var(--amarillo);
+}
+
+.about-section-2 .accordion .accordion-button .cv-amarillo:hover {
+    text-decoration: 2px underline;
+}
+
+#cv-body a .primary-button {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+#cv-body a .secondary-button {
+    margin-top: 1rem;
+}
+
+/*END about-section-2*/
+
+
+/*START decorative-banner-1*/
+
+.decorative-banner-1 {
+    background-image: url(../images/wallpaper/wallpaper.jpg);
+    height: 15vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*END decorative-banner-1*/
+
+
+/*START about-section-3*/
+
+.about-section-3 {
+    background: var(--negro);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Moderat';
+    color: var(--crema);
+    text-align: left;
+}
+
+.about-section-3 p {
+    font-family: 'Moderat';
+}
+
+.skill-graph {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.skill-graph {
+    background: var(--negro);
+    color: var(--crema);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-graph .container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skill-graph .container .flex {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+}
+
+.skill-graph .container .bar {
+    width: 100vw;
+    height: 15px;
+    border: 0px solid var(--crema);
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-graph .container .inside1 {
+    border-radius: 30px;
+    width: 99%;
+    height: 15px;
+    background: var(--anaranjado);
+    animation: slide1 5s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.skill-graph .container .inside2 {
+    border-radius: 30px;
+    width: 95%;
+    height: 15px;
+    background: var(--azul);
+    animation: slide2 5s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.skill-graph .container .inside3 {
+    border-radius: 30px;
+    width: 85%;
+    height: 15px;
+    background: var(--amarillo);
+    animation: slide3 5s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.skill-graph .container .inside4 {
+    border-radius: 30px;
+    width: 90%;
+    height: 15px;
+    background: #78AA8D;
+    animation: slide4 5s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.skill-graph .container .inside5 {
+    border-radius: 30px;
+    width: 85%;
+    height: 15px;
+    background: #F5AEA2;
+    animation: slide5 5s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.skill-graph .container .inside6 {
+    border-radius: 30px;
+    width: 80%;
+    height: 15px;
+    background: var(--anaranjado);
+    animation: slide6 5s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.skill-graph .container .inside7 {
+    border-radius: 30px;
+    width: 70%;
+    height: 15px;
+    background: var(--azul);
+    animation: slide7 5s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.skill-graph .container .inside8 {
+    border-radius: 30px;
+    width: 80%;
+    height: 15px;
+    background: var(--amarillo);
+    animation: slide8 5s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.skill-graph .bar h4 {
+    padding-left: 10px;
+}
+
+@keyframes slide1 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 99%;
+    }
+}
+
+@keyframes slide2 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 95%;
+    }
+}
+
+@keyframes slide3 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 85%;
+    }
+}
+
+@keyframes slide4 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes slide5 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 85%;
+    }
+}
+
+@keyframes slide6 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes slide7 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes slide8 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+/*END about-section-3*/
+
+
+
+/*START MEDIA QUERIES*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+
+/*END MEDIA QUERIES*/

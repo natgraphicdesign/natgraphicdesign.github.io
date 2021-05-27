@@ -1,0 +1,200 @@
+/*START work-title*/
+
+.work-title {
+    padding-top: 1rem;
+    font-family: "Moderat-Bold";
+}
+
+/*END work-title*/
+
+
+/*START work-section-1*/
+
+.site-main .work-section-1 {
+    background: var(--crema);
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+
+.site-main .work-section-1 .project-card {
+    padding-top: 1.5rem;
+    padding-bottom: 0rem;
+}
+
+.site-main .work-section-1 .button-group {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.site-main .work-section-1 .button-group button {
+    background: transparent;
+    border: none;
+    width: 130px;
+    height: 40px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Moderat';
+}
+
+.site-main .work-section-1 .button-group button:hover {
+    background: transparent;
+    border: none;
+    text-decoration: 2px underline;
+}
+
+.site-main .work-section-1 .button-group button:focus {
+    background: transparent;
+    border: none;
+    text-decoration: 2px underline;
+}
+
+.site-main .work-section-1 .button-group button+button {
+    padding-left: 0rem;
+}
+
+.site-main .work-section-1 .active {
+    text-decoration: 2px underline;
+}
+
+.site-main .work-section-1 .grid .project-card>.overlay h4 {
+    font: normal 700 25px/12px;
+}
+
+.site-main .work-section-1 .grid .project-card .img {
+    height: 15rem !important;
+    border-radius: 0px;
+}
+
+.work-section-1 .arrow-down {
+    text-align: center;
+    display: none;
+}
+
+/*HOVER PROJECT IMAGES*/
+
+.site-main .project-card .img {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.40);
+}
+
+.site-main .project-card .img:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.40);
+}
+
+.site-main .project-card .img img {
+    min-width: 150%;
+    height: auto;
+    border-radius: 0px;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all .9s ease;
+    -moz-transition: all .9s ease;
+    -o-transition: all .9s ease;
+    -ms-transition: all .9s ease;
+}
+
+.site-main .project-card:hover .img img {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--azul);
+    transition: all 0.2s ease-in;
+    -webkit-transition: all .9s ease;
+    -moz-transition: all .9s ease;
+    -o-transition: all .9s ease;
+    -ms-transition: all .9s ease;
+}
+
+.img:hover .overlay {
+    opacity: 1;
+}
+
+.project-info {
+    color: var(--crema);
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Moderat';
+}
+
+.overlay span {
+    color: var(--negro) !important;
+    padding-top: 5rem;
+    font-size: 20px;
+    font-family: 'Moderat-Light';
+}
+
+/* END work-section-1*/
+
+
+/*START decorative-banner-1*/
+
+.decorative-banner-1 {
+    background-image: url(../images/wallpaper/wallpaper.jpg);
+    height: 15vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*END decorative-banner-1*/
+
+
+/*START MEDIA QUERIES*/
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+
+    .button-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .work-section-1 .button-group button {
+        text-align: center !important;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .button-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .work-section-1 .button-group button {
+        text-align: center !important;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+/*END MEDIA QUERIES*/
