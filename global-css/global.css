@@ -55,6 +55,8 @@ body {
     font-size: 15px;
     font-weight: 500;
     color: var(--negro) !important;
+    font-family: 'Moderat-Medium';
+
 }
 
 .header-area a:hover {
