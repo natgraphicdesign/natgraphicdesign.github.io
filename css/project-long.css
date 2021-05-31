@@ -1,0 +1,334 @@
+/*START project-long-title*/
+
+.project-long-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Moderat-Bold";
+    color: var(--negro);
+    background: var(--crema);
+}
+
+.project-long-title .scroll-down {
+    color: var(--negro) !important;
+    text-align: right !important;
+}
+
+.project-long-title .scroll-down:hover {
+    color: var(--azul) !important;
+    transition: 0s !important;
+
+}
+
+/*START project-long-title*/
+
+
+/*START project-long-section-1*/
+
+.project-long-section-1 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.project-long-section-1 {
+    transition: 0.3s;
+}
+
+.carousel-item {
+    overflow: hidden;
+}
+
+.carousel-item:hover {
+    transform: scale(1.15);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 65vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#exampleModal .modal-content {
+    background: none;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+}
+
+#exampleModal .modal-header button {
+    background: none;
+    color: var(--anaranjado);
+    border: none;
+    font-size: 2rem;
+    position: relative;
+}
+
+#exampleModal .modal-header button:hover {
+    text-decoration: 2px underline;
+}
+
+#exampleModal .modal-body {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+#exampleModal .modal-body::before {
+    top: -5px;
+    left: -5px;
+}
+
+#exampleModal .modal-body::after {
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+}
+
+#exampleModal .carousel-control-next-icon,
+#exampleModal .carousel-control-prev-icon {
+    height: 30px;
+    width: 30px;
+}
+
+#exampleModal .carousel-indicators {
+    bottom: -60px;
+}
+
+#exampleModal .carousel-indicators li:hover {
+    background: white;
+}
+
+#exampleModal .carousel-indicators li.active {
+    background: white;
+}
+
+#exampleModal .modal-footer h5 {
+    justify-content: left;
+    color: var(--negro);
+    font-family: 'Moderat';
+}
+
+
+/*END project-long-section-1*/
+
+
+/*START MEDIA QUERIES*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+    .carousel-item img {
+        height: 70vw;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    .carousel-item img {
+        height: 70vw;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+    .carousel-item img {
+        height: 70vw;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+
+    .carousel-item img {
+        height: 70vw;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+
+/*END MEDIA QUERIES*/
+
+
+
+/*START project-long-description */
+
+.project-long-description {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: var(--negro);
+    color: var(--crema);
+}
+
+.project-long-description .description {
+    color: #adb5bd;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+
+.project-long-description h5 {
+    font-size: 25px;
+    font-family: 'Moderat-Light';
+}
+
+.project-long-description h6 {
+    line-height: 15px !important;
+    padding-top: .5rem;
+}
+
+.project-long-description h6 a {
+    color: var(--crema);
+    font-family: 'Moderat-Light';
+    font-size: 15px;
+    text-decoration: none !important;
+}
+
+.project-long-description h6 a:hover {
+    text-decoration: 1px underline !important;
+}
+
+/*START OWL CAROUSEL*/
+
+.content {
+    padding-top: 3rem;
+}
+
+.owl-carousel a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.carousel-nav {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+    border-bottom: 1px solid var(--crema);
+    margin-bottom: 1rem;
+    border-top: 1px solid var(--crema);
+}
+
+.carousel-nav i {
+    padding-right: .5rem;
+}
+
+.carousel-nav .anaranjado {
+    color: var(--anaranjado);
+    font-size: 20px !important;
+}
+
+.carousel-nav .azul {
+    color: var(--azul);
+    font-size: 20px !important;
+}
+
+.carousel-nav .amarillo {
+    color: var(--amarillo);
+    font-size: 20px !important;
+}
+
+.carousel-nav a h5 {
+    color: var(--crema);
+    text-align: center !important;
+    font-family: 'Moderat-Light';
+    font-size: 20px;
+}
+
+.carousel-nav a:hover {
+    text-decoration: 2px underline var(--crema) !important;
+}
+
+.carousel-nav a.active {
+    text-decoration: 2px underline var(--crema) !important;
+}
+
+.media-29101 .text {
+    padding-top: .5rem;
+}
+
+@media (max-width: 991.98px) {
+    .media-29101 .text {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+.media-29101 .text .category {
+    color: #adb5bd;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+
+.owl-carousel p {
+    font-size: 18px;
+    font-family: 'Moderat-Light';
+}
+
+.owl-carousel h4 {
+    font-size: 25px;
+    font-family: 'Moderat-Bold';
+}
+
+
+/*END OWL CAROUSEL*/
+
+/*END project-long-description */
+
+
+
+/*START decorative-banner-1*/
+
+.decorative-banner-1 {
+    background-image: url(../images/wallpaper/wallpaper.jpg);
+    height: 15vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*END decorative-banner-1*/
+
+
+/*START MEDIA QUERIES*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .carousel-nav i {
+        padding-right: 3rem;
+    }
+
+    .project-long-title .scroll-down {
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .project-long-title .scroll-down {
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+
+/*END MEDIA QUERIES*/

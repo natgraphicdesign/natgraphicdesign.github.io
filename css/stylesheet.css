@@ -1,0 +1,8 @@
+/*Imported Fonts*/
+
+@import url(./fonts.css);
+
+/*Global CSS*/
+
+@import url(../global-css/variables.css);
+@import url(../global-css/global.css);
