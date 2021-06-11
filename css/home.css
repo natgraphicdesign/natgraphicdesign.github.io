@@ -316,7 +316,7 @@ i.punto-anaranjado {
         color: var(--anaranjado);
         font-size: .7rem !important;
         padding-left: 0rem !important;
-        transform: translateY(-2px);
+        transform: translateY(-1px);
     }
 
     .home-section-1 .scroll-down {
