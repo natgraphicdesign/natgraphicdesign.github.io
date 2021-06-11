@@ -298,7 +298,7 @@ i.punto-anaranjado {
 
     i.punto-anaranjado {
         color: var(--anaranjado);
-        font-size: 1.0rem;
+        font-size: 1rem;
     }
 
     .home-section-3 h4 {
@@ -314,9 +314,9 @@ i.punto-anaranjado {
 
     .home-section-3 i {
         color: var(--anaranjado);
-        font-size: 1.2rem;
-        padding-left: 1.3rem;
-        transform: translateY(-2px);
+        font-size: .5rem;
+        padding-left: 0rem;
+        transform: translateY(0px);
     }
 
     .home-section-1 .scroll-down {
