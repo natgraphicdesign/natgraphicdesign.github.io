@@ -314,7 +314,7 @@ i.punto-anaranjado {
 
     .home-section-3 i {
         color: var(--anaranjado);
-        font-size: .5rem;
+        font-size: 1rem;
         padding-left: 0rem;
         transform: translateY(0px);
     }
