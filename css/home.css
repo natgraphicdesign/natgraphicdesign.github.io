@@ -272,7 +272,7 @@ i.punto-anaranjado {
 
 .home-section-3 i {
     color: var(--anaranjado);
-    font-size: .8rem !important;
+    font-size: 1rem;
     transform: translateY(0px);
 }
 
