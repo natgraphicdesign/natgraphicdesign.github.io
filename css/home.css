@@ -272,7 +272,7 @@ i.punto-anaranjado {
 
 .home-section-3 i {
     color: var(--anaranjado);
-    font-size: 1rem;
+    font-size: .8rem !important;
     transform: translateY(0px);
 }
 
@@ -314,8 +314,8 @@ i.punto-anaranjado {
 
     .home-section-3 i {
         color: var(--anaranjado);
-        font-size: 1rem;
-        padding-left: 0rem;
+        font-size: .8rem !important;
+        padding-left: 0rem !important;
         transform: translateY(0px);
     }
 
